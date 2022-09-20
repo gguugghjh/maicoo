@@ -1,0 +1,461 @@
+body{
+    margin:0;
+    padding:0;
+   
+}
+.name{
+    width:100%;
+    height:300px;
+    background:rgb(0, 0, 0) ;
+    transform: skewY(-4deg);
+
+}
+.name .content {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+   left:25%; 
+}
+.name .content  .p-1{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 55px;
+    transform: skewY(2deg);
+   
+  }   
+  .name .content  .p-2{
+    color:rgb(206, 199, 199);
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    transform: skewY(2deg);
+   }
+   .name .img{
+    position: absolute;
+    top: 18%;
+    right: 13%;
+    width: 191px;
+    height: 202px;
+    border-radius: 100%;
+    transform: scaleY(11deg);
+    overflow: hidden;
+   
+
+   }
+   .name .img img{
+    width: 194px;
+    height:205px;
+    
+    }
+    
+  .info {
+    width: 90%;
+    height: auto;
+    background:rgb(151, 145, 145) ;
+    margin:6% auto;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .info .tituloinfo {
+    color: white; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px beige dashed ;
+  }
+ .info .tituloseccion { 
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px ;
+ }
+
+.info .infoinfo{ 
+   color: rgb(0, 0, 0);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bolder;
+   font-size: large;
+   display: inline;
+}
+.info .tituloseccione{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  display: inline;
+}
+.info .titulocorreo{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  display: inline;
+}
+.info .titulocol{
+  color: rgb(0, 0, 0);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  display: inline;
+}
+
+.info .titulonac{
+  color: rgb(2, 2, 2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  display: inline;
+}
+.info .titulopas{
+  color: rgb(2, 2, 2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  display: inline;
+}
+.names  .img{
+  position: absolute;
+  top:102%;
+  right: 41%;
+  width: 212px;
+  height: 215px;
+  border-radius: 101%;
+  overflow: hidden;
+ }
+ .names .img img {
+   width: 215px;
+   height:221px;
+    
+    }
+   .inpo {
+      width: 90%;
+      height:auto ;
+      background:rgb(133, 120, 27) ;
+      margin: 4%;
+      padding:1%;
+      border-radius: 30%;
+     
+    }   
+  .inpo  .tituoequi{
+    color: rgb(14, 7, 7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    text-align:right;
+    position: absolute;
+    left: 77%;
+    top: 111%;
+   
+   }
+  .inpo .tituoequis{
+    color: rgb(9, 8, 8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    position: absolute;
+    top:111%; 
+    right:74%;
+     }
+     .namne .image{
+      position: absolute;
+      left:  16%;
+      top: 125%;
+      width: 223%px;
+      height:187%px;
+      border-radius: 107%;
+      overflow: hidden;
+      }  
+      .namne .image image{ 
+        width: 223%px;
+      height :187%px; 
+      }
+     .talento .tituloequi{
+      color: rgb(27, 6, 150); 
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size:large;
+      font-weight: bolder;
+      position: absolute;
+      top: 159%;
+      right: 71%;
+      
+    }
+    .talento .titulodaequi{
+      color: rgb(208, 29, 29); 
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size:large;
+      font-weight: bolder;
+      position: absolute;
+      top:164% ;
+      right: 73%;
+     }
+     .talento .infocar{
+      color: rgb(4, 4, 5); 
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size:large;
+      font-weight: bolder;
+      position: absolute;
+      top: 168%;
+      right: 66%;
+      
+    }
+    .talento .titulotiem{
+      color: rgb(209, 22, 22); 
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size:large;
+      font-weight: bolder;
+      position: absolute;
+      top: 173%;
+      right: 73%;
+      
+    }
+    .talento .infotiem{
+      color: rgb(7, 6, 6); 
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: large;
+      font-weight: bolder;
+      position: absolute;
+      top:178% ;
+      right: 73%;
+     
+    }
+    .soccer .img{
+      position: absolute;
+      left:71%;
+      top: 126%;
+      width: 241%px;
+      height:209%px;
+      border-radius: 100%;
+      overflow: hidden;
+     
+     }  
+     .soccer .img img{
+      width: 241%px;
+      height :209%px;
+     }  
+     .ondu .titulondu{
+      color: rgb(27, 6, 150); 
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size:large;
+      font-weight: bolder;
+      position: absolute;
+      top: 159%;
+      left:  73%;
+      
+    }
+    .ondu .titulodequi{
+      color: rgb(208, 29, 29); 
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size:large;
+      font-weight: bolder;
+      position: absolute;
+      top:166% ;
+      left: 77%;
+     }
+     .ondu .infokar{
+      color: rgb(4, 4, 5); 
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size:large;
+      font-weight: bolder;
+      position: absolute;
+      top: 170%;
+      left:  74%;
+      
+    }
+    .ondu .infotorni{
+      color: rgb(224, 16, 16); 
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size:large;
+      font-weight: bolder;
+      position: absolute;
+      top: 174%;
+      left:  77%;
+     }
+    .ondu .infoexp{
+      color: rgb(0, 0, 0); 
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size:large;
+      font-weight: bolder;
+      position: absolute;
+      top: 178%;
+      left:  66%;
+      
+    }
+    .ondu .titulotiep{
+      color: rgb(224, 16, 16); 
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: large;
+      font-weight: bolder;
+      position: absolute;
+      top:182% ;
+      left: 77%;
+     
+    }  
+    .ondu .infotiep{
+    color: rgb(7, 6, 6); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    position: absolute;
+    top:187% ;
+    left:  74%;
+   }  
+  
+   .ondu .infocarg{
+    color: rgb(224, 14, 14); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+    font-weight: bolder;
+    position: absolute;
+    top: 226%;
+    right:  74%;
+    
+  } 
+  .ondu .infocarrg{
+    color: rgb(8, 7, 7); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+    font-weight: bolder;
+    position: absolute;
+    top: 231%;
+    right:  74%;
+   }
+   .ondu .infoexpp{
+    color: rgb(224, 16, 16); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+    font-weight: bolder;
+    position: absolute;
+    top: 236%;
+    right:  74%;
+  }  
+  .ondu .titulotiepp{
+    color: rgb(224, 15, 15); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    position: absolute;
+    top: 246% ;
+    right:73.5%;
+    }
+   
+  .ondu .infotorn{
+    color: rgb(2, 1, 1); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    position: absolute;
+    top: 241% ;
+    right:61%;
+   
+  }  
+  .ondu .infotiepp{
+  color: rgb(0, 0, 0); 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  font-weight: bolder;
+  position: absolute;
+  top:251% ;
+  right: 69%;
+}  
+.ondu .titulonduu{
+  color: rgb(15, 25, 167); 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:large;
+  font-weight: bolder;
+  position: absolute;
+  top:221% ;
+  right: 73%;
+ }
+.nameq .image{
+  position: absolute;
+  right:73.-95;
+  top: 190%;
+  width: 57%px;
+  height:47%px;
+  border-radius: 100%;
+  overflow: hidden;
+  
+  
+  }  
+ .nameq .image image{
+  width:57%px;
+  height :47%px;
+ 
+ } 
+ .ondura .infoexppi{
+  color: rgb(224, 16, 16); 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:large;
+  font-weight: bolder;
+  position: absolute;
+  top:247%;
+  right: 10%;
+  
+}
+.ondura .titulotieppi{
+  color: rgb(224, 16, 16); 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  font-weight: bolder;
+  position: absolute;
+  top:237% ;
+  left: 79%;
+ 
+}  
+.ondura .infotieppo{
+color: rgb(7, 6, 6); 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: large;
+font-weight: bolder;
+position: absolute;
+top:242% ;
+left: 76%;
+}  
+
+.ondura .infocargo{
+color: rgb(224, 14, 14); 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:large;
+font-weight: bolder;
+position: absolute;
+top: 228%;
+right: 17%;
+
+} 
+.ondura .titulohon{
+color: rgb(11, 15, 138); 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:large;
+font-weight: bolder;
+position: absolute;
+top: 223%;
+right: 13%;
+}
+.ondura .infotecn{
+color: rgb(11, 9, 9); 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:large;
+font-weight: bolder;
+position: absolute;
+top: 233%;
+right:  17%;
+} 
+.inames .image{
+  position: absolute;
+  left:73%;
+  top: 196%;
+  width: 57%px;
+  height:47%px;
+  border-radius: 100%;
+  overflow: hidden;
+  }  
+.inames .image image{
+  width:57%px;
+  height :47%px;
+ }
+
+ 
+
